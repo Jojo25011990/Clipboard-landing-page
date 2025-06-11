@@ -1,0 +1,161 @@
+@import "tailwindcss";
+/* @import "lightbox2/dist/css/lightbox.min.css"; */
+
+@theme {
+	--color-black-primary: #4c545c;
+	--color-grey-primary: #9eabb2;
+	--color-green-primary: #26bba4;
+	--color-blue-primary: #6174ff;
+}
+
+html {
+	@media (max-width: 500px) {
+		font-size: 90%;
+	}
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 700;
+}
+
+/* Font Family Barlow */
+.ff-bai-jamjuree {
+	font-family: "Bai Jamjuree", sans-serif;
+}
+/* End of Font Family Barlow */
+
+/* Desktop  Width */
+.w-desktop-1440px {
+	width: 100%;
+	max-width: 1440px;
+
+	margin: 20px 0;
+
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+/* End of Desktop Width */
+
+/* Container Width */
+.w-desktop-1110px {
+	width: 100%;
+	max-width: 1110px;
+}
+/* End of Container Width */
+
+/* Button Component */
+.btn-component {
+	display: inline-block;
+
+	/* width: 100%; */
+	/* max-width: 227px; */
+
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.5px;
+
+	color: #fff;
+
+	padding: 13px 39px;
+
+	border-radius: 100px;
+
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+	transition: opacity 0.3s;
+}
+/* End of Button Component */
+
+/* Footer Navigation Links Width */
+
+.footer-nav-w {
+	width: 500px;
+}
+/* Footer Navigation Links Width */
+
+/* Media Query */
+.media-500px-h1 {
+	@media (max-width: 500px) {
+		h1,
+		h2 {
+			font-size: 30px;
+		}
+	}
+}
+
+.media-500px-h2 {
+	@media (max-width: 500px) {
+		h2 {
+			font-size: 25px;
+		}
+	}
+}
+
+.media-500px-paragraph {
+	@media (max-width: 500px) {
+		p {
+			font-size: 14px;
+			line-height: 22px;
+		}
+	}
+}
+
+.media-900px-header-img {
+	@media (max-width: 900px) {
+		height: 250px;
+		img {
+			height: 100%;
+		}
+	}
+}
+
+.media-900px-big-pc {
+	@media (max-width: 900px) {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		padding-inline: 32px;
+	}
+}
+
+.media-900px-big-pc-img {
+	@media (max-width: 900px) {
+		left: 0;
+	}
+}
+
+.media-900px-big-pc-content {
+	@media (max-width: 900px) {
+		margin-right: 0;
+	}
+}
+
+.media-400px-header-img-01 {
+	@media (max-width: 400px) {
+		display: none;
+	}
+}
+.media-400px-header-img-02 {
+	@media (max-width: 400px) {
+		display: block;
+	}
+}
+
+.media-570px-logo-links {
+	@media (max-width: 570px) {
+		flex-direction: column;
+	}
+}
+
+.media-500px-footer-links {
+	@media (max-width: 500px) {
+		flex-direction: column;
+	}
+}
+/* End of Media Query */
