@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [GitHub](https://github.com/Jojo25011990/clipboard-landing-page)
--   Live Site URL: [GitHub Pages](https://jojo25011990.github.io/clipboard-landing-page)
+-   Live Site URL: [GitHub Pages](https://jojo25011990.github.io/Clipboard-landing-page/)
 
 ## My process
 
