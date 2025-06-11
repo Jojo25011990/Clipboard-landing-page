@@ -80,6 +80,12 @@ h4 {
 /* Footer Navigation Links Width */
 
 /* Media Query */
+.media-500px-hero-section {
+	@media (max-width: 500px) {
+		margin-top: 0;
+	}
+}
+
 .media-500px-h1 {
 	@media (max-width: 500px) {
 		h1,
